@@ -1,0 +1,112 @@
+.youtube {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+.container {
+    background-color: #F7F7F7;
+    width: 900px;
+    height: 415px;
+    display: grid;
+    grid-template-columns: repeat(5,135px);
+    grid-template-rows: 65px repeat(3,80px);
+    padding: 30px;
+    gap: 15px;
+}
+
+.video-principal {
+    background-color: #C4C4C4;
+    ;
+    grid-area: 1/1/4/5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.detalhe-principal {
+    background-color: #F7F7F7;
+    grid-area: 4/1/6/5;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.detalhe-principal .titulo-roboto, .visualizacao, .descricao {
+    font-family: 'Roboto', Times, serif;
+}
+
+.detalhe-principal .titulo-roboto {
+    font-weight: 700;
+}
+
+.detalhe-principal .descricao {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.detalhe-principal .visualizacao {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.propaganda {
+    background-color: #C4C4C4;
+    grid-area: 1/5/2/7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.sub-video1 {
+    grid-area: 2/5/3/7;
+    display: grid;
+    grid-template-columns: 115px repeat(2, 93px);
+}
+
+.sub-video2 {
+    grid-area: 3/5/4/7;
+    display: grid;
+    grid-template-columns: 115px repeat(2, 93px);
+}
+
+.sub-video3 {
+    grid-area: 4/5/5/7;
+    display: grid;
+    grid-template-columns: 115px repeat(2, 93px);
+}
+
+.subvideo {
+    background-color: #C4C4C4;
+    grid-area: 1/1/1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.sub-descricao {
+    background-color: #F7F7F7;;
+    grid-area: 1/2/1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.container .sub-video1, .sub-video2, .sub-video3 {
+    font-family:'Roboto', Times, serif;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+ .sub-titulo {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+
+
